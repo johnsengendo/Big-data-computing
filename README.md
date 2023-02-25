@@ -1,6 +1,6 @@
 # Big-data-computing
 ## Clustering of data points
-In this project I cluster points based on their similarities which is their closest distance , different clusters are created in the data and the center of each clustar is selected among the data points.
+In this project, I cluster points based on their similarities which is their closest distance, different clusters are created in the data and the center of each clustar is selected among the data points.
 The task of the project was to find the number of clusters [ selected between 8 - 12] in the dataset that give the best silhouette value.
 I run the program by inputting the number of clusters needed and centers are selected from the data.
 * I returns the sum of squared euclidean distances between the pair of points. That is, a point and its closest center.
