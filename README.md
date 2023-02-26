@@ -6,7 +6,7 @@ The main task of the project was to find the number of clusters [ selected betwe
 
 ### Different clusters are created in the data and the center of each clustar is selected among the data points.
 * To evaluate similarities among points, I use the [KMean clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) algorithm where distance computation among points are computed.
-* I use Intellij to run the program [program](clustering.JPG) by inputting the number of clusters needed and cluster centers are selected from the data.
+* I use Intellij to run the program [program](https://github.com/johnsengendo/Big-data-computing-project-2/blob/main/Project_2.java) by inputting the number of clusters needed and cluster centers are selected from the data.
 * I returns the sum of squared euclidean distances between the pair of points. That is, a point and its closest center. 
 * Points that are close to a particular center are put in a similar cluster.
 ### Clustering illustration using silhouette <br>
