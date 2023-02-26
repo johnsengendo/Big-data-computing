@@ -6,9 +6,9 @@ The main task of the project was to find the number of clusters [ selected betwe
 <br>
 Main requirements of the project are:
 ```
-Installing [IntelliJ IDEA](mm)
-Setting up Spark configurations.
-Running th [build grade file](https://github.com/johnsengendo/Big-data-computing-project-2/blob/main/build.gradle)
+Installing IntelliJ IDEA.
+Setting up Spark configurations in IntelliJ.
+Running the build.gradle file.
 ```
 
 ### Different clusters are created in the data and the center of each clustar is selected among the data points.
