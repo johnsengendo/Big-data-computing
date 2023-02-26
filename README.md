@@ -1,19 +1,19 @@
 # Big-data-computing
 ## Clustering of data points
-Clustering is a great technique in data science for processing big data based on similarities. For example grouping different customers in a market based on thier behaviour and similarities. Also clustering can be applied in analysing and grouping networks on social media sites.<br>
-In this project, I work on a dataset of points in euclidean space and cluster the points based on the similarity of distance between them.
+Clustering is a great technique in data science for processing big data based on similarities. For example; grouping different customers in a market, based on thier behaviour and similarities. Also clustering can be applied in analysing and grouping networks on social media sites, and run adverts that a relevant to a particular group/network.<br>
+In this project, I worked on a dataset of points in euclidean space and clustered the points based on the similarity of closest distance between them.
 The main task of the project was to find the number of clusters [ selected between 8 - 12] in the dataset that gives the best silhouette coefficient which is a measure of how similar a data point is within a cluster compared to other clusters (separation).<br>
 <br>
 Main requirements of the project are:
 ```
-Installing IntelliJ IDEA.
+Installing IntelliJ IDEA 2020.3.4
 Setting up Spark configurations in IntelliJ.
 Running the build.gradle file.
 ```
 
 ### Different clusters are created in the data and the center of each clustar is selected among the data points.
 * To evaluate similarities among points, I use the [KMean clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) algorithm where distance computation among points are computed.
-* I use Intellij to run the program [program](https://github.com/johnsengendo/Big-data-computing-project-2/blob/main/Project_2.java) by inputting the number of clusters needed and cluster centers are selected from the data.
+* I use Intellij to run the program [program](https://github.com/johnsengendo/Big-data-computing-project-2/blob/main/Project_2.java) by inputting the number of clusters needed and cluster centers are then selected from the data.
 * I returns the sum of squared euclidean distances between the pair of points. That is, a point and its closest center. 
 * Points that are close to a particular center are put in a similar cluster.
 ### Clustering illustration using silhouette <br>
