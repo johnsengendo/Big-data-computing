@@ -12,6 +12,6 @@ The main task of the project was to find the number of clusters [ selected betwe
 ### Clustering illustration using silhouette <br>
 ![BER](clustering.JPG)
 
-* Silhouette coefficient was used to evaluate how good my clustering was. 
-* A value near +1 indicates that the sample points are far away from the neighboring clusters and so points are well clusterd. 
-* A value of 0 indicates that the sample points are on or very close to the decision boundary between two neighboring clusters and negative values indicates that the sample points might have been assigned to the wrong cluster.
+* Silhouette coefficient was then computed to evaluate how good my clustering was. 
+* A value of 0 indicated that the sample points are on or very close to the decision boundary between two neighboring clusters and negative values indicated that the sample points might have been assigned to the wrong cluster thus another clustering was needed by selecting a different number of clusters.
+* A value near +1 indicated that the sample points are far away from the neighboring clusters and so points are well clusterd. 
