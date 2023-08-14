@@ -2,7 +2,7 @@
 ## Clustering of data points
 Clustering is a great technique in data science for processing big data based on similarities. For example; grouping different customers in a market, based on thier behaviour and similarities. Also clustering can be applied in analysing and grouping networks on social media sites, and run adverts that a relevant to a particular group/network.<br>
 In this project, I worked on a dataset of points in euclidean space and clustered the points based on the similarity of closest distance between them.
-The main task of the project was to find the number of clusters [ selected between 8 - 12] in the dataset that gives the best silhouette coefficient which is a measure of how similar a data point is within a cluster compared to other clusters (separation).<br>
+The main task of the project was to find the number of clusters [ selected between 8 - 12] in the dataset that gives the best silhouette coefficient which is a measure of how similar data points within a cluster are compared to others in the other clusters (separation).<br>
 <br>
 Main requirements of the project are:
 ```
